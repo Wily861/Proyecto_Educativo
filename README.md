@@ -181,3 +181,8 @@ Una parte clave del proyecto fue la integración entre **PostgreSQL** y **Micros
 
 ---
 
+## 🚨 Notas sobre Seguridad o Ética de Datos
+
+>⚠️ **Este proyecto es académico. Los datos utilizados fueron generados con fines ilustrativos. No representan información real de pacientes.**
+
+
