@@ -145,15 +145,39 @@ ORDER BY tabla_relacionada;
 
 ```
 
-
+---
 ## 🔗 Integración PostgreSQL + Excel
 
 Una parte clave del proyecto fue la integración entre **PostgreSQL** y **Microsoft Excel** mediante ODBC. Este enlace muestra cómo se realizó la conexión de manera práctica:
 
 [📎 Ver archivo de conexión (Google Drive)](https://drive.google.com/file/d/1oz25Z0FYRzL6zc5_vCEy-cDDmirsADHV/view?usp=sharing)
 
-
-
 > Esta conexión permitió cargar dinámicamente las tablas clínicas desde el motor de base de datos `medicare_db` hacia Excel, facilitando la creación de reportes visuales y análisis estratégicos.
 
+---
+
+## 🧠 Aprendizajes Destacados
+
+- Reforcé mis habilidades en diseño de bases de datos relacionales aplicadas a escenarios clínicos reales.
+- Automatización de consultas SQL y exploración de relaciones entre entidades.
+- Integración de PostgreSQL con herramientas externas como Microsoft Excel mediante ODBC.
+- Mejora en la documentación técnica y estructuración de proyectos en GitHub.
+
+---
+## 🔄 Posibles Mejores Futuras
+
+- Implementar visualizaciones dinámicas en Power BI conectadas en tiempo real a PostgreSQL.
+- Diseñar un formulario web básico para la carga de datos clínicos.
+- Crear procedimientos almacenados para reportes recurrentes.
+- Establecer control de acceso según roles clínicos (médico, administrador, laboratorio).
+---
+
+## 💻 Cómo Ejecutar el Proyecto
+
+1. Instalar PostgreSQL y crear la base de datos ejecutando `script_postgresql.sql`.
+2. Abrir Excel y establecer la conexión ODBC con la base de datos `medicare_db`.
+3. Cargar tablas mediante Power Query.
+4. Explorar los dashboards desde `visualizaciones/reportes_excel.xlsx`.
+
+---
 
