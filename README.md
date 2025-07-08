@@ -148,11 +148,11 @@ ORDER BY tabla_relacionada;
 
 ## 🔗 Integración PostgreSQL + Excel
 
-## 🔗 Conexión de PostgreSQL hacia Excel
-
 Una parte clave del proyecto fue la integración entre **PostgreSQL** y **Microsoft Excel** mediante ODBC. Este enlace muestra cómo se realizó la conexión de manera práctica:
 
 [📎 Ver archivo de conexión (Google Drive)](https://drive.google.com/file/d/1oz25Z0FYRzL6zc5_vCEy-cDDmirsADHV/view?usp=sharing)
+
+
 
 > Esta conexión permitió cargar dinámicamente las tablas clínicas desde el motor de base de datos `medicare_db` hacia Excel, facilitando la creación de reportes visuales y análisis estratégicos.
 
