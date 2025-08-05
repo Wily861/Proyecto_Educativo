@@ -50,7 +50,6 @@ TEMPLATE = template0;
 CREATE SCHEMA IF NOT EXISTS mediCare;
 
 ```
-
 🔗 [Haz clic aquí para ver la imagen](https://www.canva.com/design/DAGvPuwa2eE/s-2GaY5PNf9pVYJqt73sMQ/edit?utm_content=DAGvPuwa2eE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## 🧬 Estructura clínica relacional 
@@ -69,7 +68,6 @@ CREATE TABLE mediCare.pacientes (
 
 ```
 🔗 [Haz clic aquí para ver la imagen](https://www.canva.com/design/DAGvPrxpvKU/Tw6CazUG7zXR_T6SlNmOMw/edit?utm_content=DAGvPrxpvKU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
 
 ```sql
 --Tabla de consultas médicas con relaciones
@@ -131,6 +129,8 @@ FROM conteo_tablas
 ORDER BY cantidad DESC;
 
 ```
+
+🔗 [Haz clic aquí para ver la imagen](https://www.canva.com/design/DAGvPjMnsVE/QBKI4HcAeF8IFuqKEvKuHA/edit?utm_content=DAGvPjMnsVE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ```sql
 -- Relaciones entre entidades
