@@ -68,7 +68,7 @@ CREATE TABLE mediCare.pacientes (
 );
 
 ```
-🔗 [Haz clic aquí para ver la imagen](https://www.canva.com/design/DAGvPuwa2eE/s-2GaY5PNf9pVYJqt73sMQ/edit?utm_content=DAGvPuwa2eE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+🔗 [Haz clic aquí para ver la imagen](https://www.canva.com/design/DAGvPrxpvKU/Tw6CazUG7zXR_T6SlNmOMw/edit?utm_content=DAGvPrxpvKU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 ```sql
