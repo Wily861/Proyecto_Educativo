@@ -149,6 +149,7 @@ WHERE con.contype = 'f'
 ORDER BY tabla_relacionada;
 
 ```
+🔗 [Haz clic aquí para ver la imagen](https://www.canva.com/design/DAGvPpHRWRE/kSmn4DqDkIJ6BFDk5jP0dQ/edit?utm_content=DAGvPpHRWRE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
 ## 🔗 Integración PostgreSQL + Excel
