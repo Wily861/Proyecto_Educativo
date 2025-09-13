@@ -50,7 +50,9 @@ TEMPLATE = template0;
 CREATE SCHEMA IF NOT EXISTS mediCare;
 
 ```
-🔗 [Haz clic aquí para ver la imagen](https://www.canva.com/design/DAGvPuwa2eE/s-2GaY5PNf9pVYJqt73sMQ/edit?utm_content=DAGvPuwa2eE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+![Base de datos y Esquema](https://drive.google.com/uc?export=view&id=11IfZJeUCf8lX0UHEB0MwMrRzJjpHFzmF)
+
 
 ## 🧬 Estructura clínica relacional 
 ```sql
@@ -67,7 +69,7 @@ CREATE TABLE mediCare.pacientes (
 );
 
 ```
-🔗 [Haz clic aquí para ver la imagen](https://www.canva.com/design/DAGvPrxpvKU/Tw6CazUG7zXR_T6SlNmOMw/edit?utm_content=DAGvPrxpvKU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+![Tabla Paciente](https://drive.google.com/uc?export=view&id=1Vyo70dAnBYlFhVcQXWYCGb4Csf5BbtgS)
 
 ```sql
 --Tabla de consultas médicas con relaciones
@@ -82,6 +84,7 @@ CREATE TABLE mediCare.consultas (
 );
 
 ```
+![Tabla consultas](https://drive.google.com/uc?export=view&id=1k5l0X00QSKIdFfdRuNMvTwZ0jKimAMvZ)
 
 ```sql
 -- Consulta analítica de resumen de cantidad de registros por tabla
@@ -130,7 +133,7 @@ ORDER BY cantidad DESC;
 
 ```
 
-🔗 [Haz clic aquí para ver la imagen](https://www.canva.com/design/DAGvPjMnsVE/QBKI4HcAeF8IFuqKEvKuHA/edit?utm_content=DAGvPjMnsVE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+![Registros por tabla](https://drive.google.com/uc?export=view&id=1C2FPCe0Mzx8gFkLzNiGpU-JN4_Ymb19f)
 
 ```sql
 -- Relaciones entre entidades
@@ -149,14 +152,14 @@ WHERE con.contype = 'f'
 ORDER BY tabla_relacionada;
 
 ```
-🔗 [Haz clic aquí para ver la imagen](https://www.canva.com/design/DAGvPpHRWRE/kSmn4DqDkIJ6BFDk5jP0dQ/edit?utm_content=DAGvPpHRWRE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+![Relación de entidades](https://drive.google.com/uc?export=view&id=1eLUXINf7kxddbADLSaPO0KIPiPPnBRcX)
 
 ---
 ## 🔗 Integración PostgreSQL + Excel
 
 Una parte clave del proyecto fue la integración entre **PostgreSQL** y **Microsoft Excel** mediante ODBC. Este enlace muestra cómo se realizó la conexión de manera práctica:
 
-[📎 Ver archivo de conexión (Google Drive)](https://drive.google.com/file/d/1oz25Z0FYRzL6zc5_vCEy-cDDmirsADHV/view?usp=sharing)
+![Maqueta de conexión](https://drive.google.com/uc?export=view&id=1oz25Z0FYRzL6zc5_vCEy-cDDmirsADHV)
 
 > Esta conexión permitió cargar dinámicamente las tablas clínicas desde el motor de base de datos `medicare_db` hacia Excel, facilitando la creación de reportes visuales y análisis estratégicos.
 
